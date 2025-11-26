@@ -6,34 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <title>Contact</title>
-</head>
-<nav class="menu">
+    </head>
+    <body>
+    <nav class="menu">
     <div class="Accueil">
         <div class="btn">
             <a href="Accueil.html"><img src="images/home.png" alt="" title="compétences" height="30" width="30"></a>
         </div>
     </div>
     <div class="conta">
+    <form action="mailto:your.email@example.com" method="post" enctype="text/plain">
     <fieldset>
 
         <legend>Me contacter</legend>
 
-        Nom:<br><input type="text" name="Non" value=""><br>
+        <label for="name">Nom :</label><br>
+        <input id="name" type="text" name="Nom" value=""><br>
 
-        Adresse mail:<br><input type="text" name="Adresse mail" value=""><br>
+        <label for="email">Adresse mail :</label><br>
+        <input id="email" type="email" name="Adresse mail" value=""><br>
 
-        Téléphone:<br><input type="text" name="Téléphone" value=""><br><br>
+        <label for="phone">Téléphone :</label><br>
+        <input id="phone" type="tel" name="Téléphone" value=""><br><br>
 
-        Message:<br><textarea maxlength="100" rows="5" cols="25">écrit ici...</textarea><br><br>
-        
-        <input type="submit" value="submit">
+        <label for="message">Message :</label><br>
+        <textarea id="message" name="Message" maxlength="100" rows="5" cols="25">écrit ici...</textarea><br><br>
+
+        <input type="submit" value="envoyer">
 
     </fieldset>
     </form>
     </div>
 
-    <body>
-
     </body>
-
 </html>
