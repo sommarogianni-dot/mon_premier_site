@@ -1,11 +1,11 @@
-
-body{
+body {
     background-color: #222222;
     background-size: cover;
-    
+
 
 }
-.conta{
+
+.conta {
     color: #ffffff;
 }
 
@@ -16,13 +16,13 @@ h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.menu{
+.menu {
     text-align: center;
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.bar{
+.bar {
     display: flex;
     justify-content: center;
     justify-content: space-around;
@@ -32,33 +32,34 @@ h1 {
 .btn {
     cursor: pointer;
     transition: transform 400ms;
+
     &:hover {
         transform: scale(1.15);
     }
 }
 
 .box {
-  border: 3px solid rgb(219, 219, 219);
-  background-color: lightgray;
-  box-sizing: border-box;
+    border: 3px solid rgb(219, 219, 219);
+    background-color: lightgray;
+    box-sizing: border-box;
     padding: 40px;
-  margin: 40px;
-  width: 1100px;
-  height: 300px;
-  border-radius: 30px;
-  box-shadow: 10px 5px 5px rgb(12, 12, 12);
+    margin: 100px;
+    width: 1100px auto;
+    height: 300px auto;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px rgb(12, 12, 12);
     justify-self: center;
     display: flex;
     align-items: center;
     gap: 24px;
 }
 
-.box p{
+.box p {
     display: block;
-    margin: 0;
+    margin: 0 auto;
 }
 
-.bande{
+.bande {
     display: flex;
     background-color: black;
     height: 50px;
@@ -69,34 +70,34 @@ h1 {
 }
 
 
-.profile-img{
-    width: 200px; 
+.profile-img {
+    width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.box .title{
+.box .title {
     font-size: 1.6rem;
     font-weight: 700;
     margin-bottom: 0.35rem;
 }
 
-.box .description{
+.box .description {
     color: #222;
     opacity: 0.9;
 }
 
-.profile-info{
+.profile-info {
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content: flex-start;
     font-size: large;
 }
 
-.compe{
+.compe {
     display: flex;
-    justify-self:center;
+    justify-self: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: large;
@@ -105,20 +106,20 @@ h1 {
     height: 50px;
     width: 150px;
     border-radius: 30px;
-    
+
 
 }
 
-.competances-bar{
+.competances-bar {
     display: flex;
     justify-content: center;
     gap: 20px;
 
 }
 
-.CV{
+.CV {
     display: flex;
-    justify-self:center;
+    justify-self: center;
     text-align: center;
     font-size: large;
     box-sizing: border-box;
@@ -126,10 +127,11 @@ h1 {
     height: 50px;
     width: 150px;
     border-radius: 30px;
-    
+
 
 }
-.CV a{
+
+.CV a {
     text-decoration: none;
     color: black;
     display: flex;
@@ -140,42 +142,43 @@ h1 {
 }
 
 
-p1{
+p1 {
     margin-top: 10%;
-    margin-right:20%;
+    margin-right: 20%;
 }
-p2{
+
+p2 {
     margin-top: 10%;
-    margin-left:10%;
+    margin-left: 10%;
 }
 
 
-.vitrineall{
+.vitrineall {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
- 
+
 }
 
 .vitrine {
-  border: 3px solid rgb(219, 219, 219);
-  background-color: lightgray;
-  box-sizing: border-box;
+    border: 3px solid rgb(219, 219, 219);
+    background-color: lightgray;
+    box-sizing: border-box;
     padding: 40px;
-  margin: 40px;
-  width: 500px;
-  height: 650px;
-  border-radius: 30px;
-  box-shadow: 10px 5px 5px rgb(12, 12, 12);
+    margin: 40px;
+    width: 500px;
+    height: 650px;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px rgb(12, 12, 12);
     justify-self: center;
     display: inline-flex;
 
     align-items: center;
- 
+
 }
 
 
-.preview-portfolio{
+.preview-portfolio {
     display: flex;
     object-fit: cover;
     height: 300px;
@@ -184,7 +187,7 @@ p2{
     margin-top: -10%;
 }
 
-.preview-snake{
+.preview-snake {
     display: flex;
     object-fit: cover;
     width: 460px;
@@ -193,7 +196,7 @@ p2{
     margin-top: -10%;
 }
 
-p3{
+p3 {
     display: flex;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -201,7 +204,7 @@ p3{
     margin-top: 15%;
 }
 
-p4{
+p4 {
     display: flex;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -210,8 +213,8 @@ p4{
     margin-top: 15%;
 }
 
-.bvitrine{
-    display: inline-flex; 
+.bvitrine {
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -222,10 +225,10 @@ p4{
     width: 150px;
     border-radius: 30px;
     margin: 0;
-    margin-top: 60%; 
+    margin-top: 60%;
 }
 
-.bvitrine a{
+.bvitrine a {
     text-decoration: none;
     color: black;
     display: inline-flex;
@@ -237,12 +240,15 @@ p4{
 }
 
 
-.vitrine-bar{
+.vitrine-bar {
     display: flex;
     justify-content: center;
     margin-right: 20%;
     gap: 20px;
- 
+
 }
 
+.light-mode {
+  background-color: rgba(130, 197, 224, 0.786);
 
+}
