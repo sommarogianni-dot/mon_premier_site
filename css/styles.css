@@ -252,3 +252,8 @@ p4 {
   background-color: rgba(130, 197, 224, 0.786);
 
 }
+.Img {
+  display: flex;
+  justify-content: left;
+  
+}
